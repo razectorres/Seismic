@@ -1,0 +1,12 @@
+"./inputs/vphess301x121.bin"			              # [velfile_vpz] modelo de velocidade p
+"./inputs/vphess301x121.bin"				          # [velfile_vsz] modelo de velocidade s			    
+301,121         				     		              # [Nx, Nz]     Dimensoes do modelo de velocidades
+100,100								                      # [nxbe,nxbd]  Camadas de amortecimento esquerda e direita
+100,100								                      # [nzbs,nzbi]  Camadas de amortecimento superior e inferior
+0  								                          # [Nag]        Espessura da lamina d'agua  caso deseje adicionar
+10.0,0.0007         						                  # [h, dt]      Espacamento da malha e intervalo de tempo
+3000							 	                      # [Ntotal]     Numero de passos de tempo da aquisicao simulada  
+30,30,3         	   						              # [fi,ff,df]   Frequencia inicial, frequencia final e intervalo de frequencia
+5,5    							                      # [kobs,kzf]  Datum das estacoes receptoras e da profundidade do tiro  
+150,10,1        		         	 		                  # [ishot,dshot,Nshot] Posicao inicial, espaçamento e número total de tiros
+1,1,301                                      	# [irec,drec,Nrec] Posicao de registro inicial, espaçamento e numero de receptores
