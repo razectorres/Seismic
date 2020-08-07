@@ -6,7 +6,7 @@ This code execute a 2D isotropic acoustic pre-stack reverse-time migration. The 
 3. acoustic_backward_problem.f90: It 'depropagate' the wavefiled in reverse time. Also, execute the zero-lag cross-correlation between the source  and receivers  wavefields. 
 
 ### Structure ###
-The are three files:
+The are three folder:
 
 1. input: It contain the input models (e.g. velocity, density, etc.) and can be set up the acquisition parameters (source and receivers position, frequency, number od samples in 'x' and 'z', etc.)
 2. output: It contain the output models (e.g. RTM images)
